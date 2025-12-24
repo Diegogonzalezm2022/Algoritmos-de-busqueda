@@ -545,41 +545,27 @@ class FIFOQueue(Queue):
             self.start = 0
         return e
 
-class OrderedQueue(Queue):
-    def __init__(self, value_func):
+class OrderedQueue(FIFOQueue):
+    def __init__(self, key_func=lambda element:element):
         self.A=[]
         self.start=0
-        self.value_func=value_func
+        self.key_func=key_func
 
     def append(self, item):
-        if len(self.A)==0 or self.value_func(item)>=self.value_func(self.A[-1]):
+        if len(self.A)==0 or self.key_func(item)>=self.key_func(self.A[-1]):
             #Si la cola está vacía o el nodo tiene mayor coste que el último.
             self.A.append(item)
-        elif self.value_func(item)<=self.value_func(self.A[self.start]):
-            #Si el nodo a insertar es menor que el primer nodo de la cola.
-            self.A.insert(self.start, item)
         else:
             #Buscamos el primer elemento que sea mayor que el nodo a insertar y lo insertamos detrás de este.
-            for num in range(self.start+1, len(self.A)):
-                if self.value_func(item)<=self.value_func(self.A[num]):
+            for num in range(self.start, len(self.A)):
+                if self.key_func(item)<=self.key_func(self.A[num]):
                     self.A.insert(num, item)
                     break
         return
 
-    def __len__(self):
-        return len(self.A) - self.start
-
     def extend(self, items):
         for item in items:
             self.append(item)
-
-    def pop(self):
-        e = self.A[self.start]
-        self.start += 1
-        if self.start > 5 and self.start > len(self.A) / 2:
-            self.A = self.A[self.start:]
-            self.start = 0
-        return e
     
 
 
