@@ -71,7 +71,7 @@ Para estudiar el rendimiento de los distintos algoritmos implementados se modifi
 <p>Ramificación y Acotación </p>
 </th><th style="text-align:left;width:5.076cm; " class="cell-ce5">
 <p>Ramificación y acotación con subestimación </p>
-</th><th style="text-align:left;width:1.655cm; " class="cell-ce4"> </td></tr><tr class="row-ro2"><td style="text-align:right; width:1.655cm; " class="cell-ce2">
+</th></td></tr><tr class="row-ro2"><td style="text-align:right; width:1.655cm; " class="cell-ce2">
 <p>1</p>
 </td><td style="text-align:left;width:1.655cm; " class="cell-ce6">
 <p>Arad</p>
@@ -117,7 +117,7 @@ Para estudiar el rendimiento de los distintos algoritmos implementados se modifi
 <p>Ruta:  [&lt;Node B&gt;, &lt;Node P&gt;, &lt;Node R&gt;, &lt;Node S&gt;, &lt;Node A&gt;]</p>
 
 <p>Tiempo transcurrido: 169.99 µs</p>
-</td><td style="text-align:left;width:1.655cm; " class="cell-ce4"> </td></tr><tr class="row-ro3"><td style="text-align:right; width:1.655cm; " class="cell-ce2">
+</td></tr><tr class="row-ro3"><td style="text-align:right; width:1.655cm; " class="cell-ce2">
 <p>2</p>
 </td><td style="text-align:left;width:1.655cm; " class="cell-ce6">
 <p>Oradea</p>
@@ -163,7 +163,7 @@ Para estudiar el rendimiento de los distintos algoritmos implementados se modifi
 <p>Ruta:  [&lt;Node E&gt;, &lt;Node H&gt;, &lt;Node U&gt;, &lt;Node B&gt;, &lt;Node P&gt;, &lt;Node R&gt;, &lt;Node S&gt;, &lt;Node O&gt;]</p>
 
 <p>Tiempo transcurrido: 412.94 µs</p>
-</td><td style="text-align:left;width:1.655cm; " class="cell-ce4"> </td></tr><tr class="row-ro4"><td style="text-align:right; width:1.655cm; " class="cell-ce2">
+</td></tr><tr class="row-ro4"><td style="text-align:right; width:1.655cm; " class="cell-ce2">
 <p>3</p>
 </td><td style="text-align:left;width:1.655cm; " class="cell-ce6">
 <p>Giurgiu</p>
@@ -209,7 +209,7 @@ Para estudiar el rendimiento de los distintos algoritmos implementados se modifi
 <p>Ruta:  [&lt;Node Z&gt;, &lt;Node A&gt;, &lt;Node S&gt;, &lt;Node R&gt;, &lt;Node P&gt;, &lt;Node B&gt;, &lt;Node G&gt;]</p>
 
 <p>Tiempo transcurrido: 258.45 µs</p>
-</td><td style="text-align:left;width:1.655cm; " class="cell-ce4"> </td></tr><tr class="row-ro5"><td style="text-align:right; width:1.655cm; " class="cell-ce2">
+</td></tr><tr class="row-ro5"><td style="text-align:right; width:1.655cm; " class="cell-ce2">
 <p>4</p>
 </td><td style="text-align:left;width:1.655cm; " class="cell-ce6">
 <p>Neamt</p>
@@ -255,7 +255,7 @@ Para estudiar el rendimiento de los distintos algoritmos implementados se modifi
 <p>Ruta:  [&lt;Node D&gt;, &lt;Node C&gt;, &lt;Node P&gt;, &lt;Node B&gt;, &lt;Node U&gt;, &lt;Node V&gt;, &lt;Node I&gt;, &lt;Node N&gt;]</p>
 
 <p>Tiempo transcurrido: 208.62 µs</p>
-</td><td style="text-align:left;width:1.655cm; " class="cell-ce4"> </td></tr><tr class="row-ro5"><td style="text-align:right; width:1.655cm; " class="cell-ce2">
+</td></tr><tr class="row-ro5"><td style="text-align:right; width:1.655cm; " class="cell-ce2">
 <p>5</p>
 </td><td style="text-align:left;width:1.655cm; " class="cell-ce6">
 <p>Mehadia</p>
